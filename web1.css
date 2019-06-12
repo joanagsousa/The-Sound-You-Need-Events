@@ -1,0 +1,534 @@
+*{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	boz-sizing: border-box;
+}
+
+.body{
+	 overflow-x: hidden !important; 
+	 overflow-y: scroll !important;
+}
+
+.HD{
+	background-image: url("p7.jpg");
+	background-size: cover; 
+	background-repeat: no-repeat;
+	height: 100vh;
+	
+}
+
+@media screen and (max-width: 300px) {
+  .HD {
+	background-position: 500px 0 !important; 
+  }
+ 
+ 
+}
+
+.brand-centered {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    left: 0%;
+    text-align: center;
+		top: 0;
+}
+
+
+
+
+.navbar{
+	height: 100px;
+	margin-top: 40px;
+	margin-left: 110px;
+	margin-right: 50px;
+	
+} 
+
+
+.nav-item{
+	list-style-type: none;
+	display: inline;
+	
+}
+
+.nav-link{
+	font-family: 'Roboto', sans-serif;
+	text-decoration: none;
+	font-size: 13px;
+	color: #fff;
+	/* font-weight: bold; */
+	letter-spacing: 2px;
+	
+}
+
+.SHOP{
+	margin-top: -6px;
+}
+
+@media screen and (max-width: 989px) {
+	
+	.navbar-toggler{
+		margin-left: -100px !important;
+		background-color: rgba(200, 61, 75) !important;
+		z-index: 1;
+		color: white !important;
+		}
+
+		.navbar-nav{
+			width: 100vw;
+			height: 85vh;
+			margin-top: 30px;
+		
+		}	
+
+		.nav-link{
+			font-size: 20px;
+			font-family: 'Roboto', sans-serif;
+			color: white !important;
+		}
+
+		
+
+		.collapse, .navbar-collapse{
+			background-color: rgba(200, 61, 75);
+			z-index: 9999;
+	
+		}
+
+		.brand-centered, .navbar-brand{
+			display: none;
+		}
+
+
+}
+
+.BLABLA{ /*GREAT EXPERIENCIES SLOGAN + div WE-ARE*/
+	margin-top: 100px; 
+	margin-left: 170px;
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	font-size: 5.5vw; /*80px*/
+	color: white;
+	line-height: 99%;
+}
+
+@media screen and (max-width: 550px) {
+  .BLABLA{
+	 margin-left: 25px;
+	 margin-top: 80px; 
+	 line-height: 129%;
+	 font-size: 30px !important;
+	}
+  
+}
+
+.WE-ARE {
+	margin-top: 60px;
+	font-family: 'Roboto', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+	color: white;
+	line-height: 30px;
+}
+
+@media screen and (max-width: 892px) {
+  .WE-ARE {
+	font-size: 18px !important;
+	margin-bottom: 20px;
+	line-height: 20px;
+	}
+
+	.THIS{
+		width: 300px !important;
+	}
+}
+
+.THIS{
+	width: 740px;
+}
+
+.SEE-ALL{
+	color:#AB3B6F;
+	width: 180px;
+
+}
+
+.TICK{
+	margin-bottom: 35px;
+}
+
+
+.DISCOVER{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	color: #4d4d4d;
+	/* line-height: 98%; */ 
+	background-color: #f2f2f2;
+	height: 550px;
+	 align-items: center;
+     justify-content: center;
+     display: flex;
+	 flex-direction: column;
+	letter-spacing: 2px;
+}
+
+.DISCOVER a {
+    text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	color: #4d4d4d;
+}
+
+.DISCOVER a:link {
+    text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	color: #4d4d4d;
+}
+
+.DISCOVER a:visited {
+    text-decoration: none;
+	color: #4d4d4d;
+}
+
+.DISCOVER a:hover {
+    text-decoration: none;
+	color: #4d4d4d;
+}
+
+.DISCOVER a:active {
+    text-decoration: none;
+	color: #4d4d4d;
+}
+
+
+.INBOX{
+	background-color: #AB3B6F;
+	color: white;
+	 align-items: center;
+     justify-content: space-around;
+     display: flex;
+	 flex-flow: row wrap;
+	 flex-direction: column;
+	
+
+}
+
+.THREE{
+	
+	font-size: 20px;
+	font-family: 'Montserrat', sans-serif;
+	/* font-weight: bold; */
+	 letter-spacing: 1.5px;
+	 line-height: 225%;
+	 min-height: 550px;
+
+	
+}
+
+.PICTURES{
+	background-color: white;
+	 align-items: center;
+     justify-content: space-around;
+     display: flex;
+	 flex-flow: row wrap;
+	 flex-direction: column;
+
+}
+
+@media screen and (max-width: 987px) {
+  .INBOX, .PICTURES {
+	min-height: 550px !important;
+  }
+ 
+ .DJ{
+	visibility: hidden;
+  }
+ 
+}
+
+
+
+.DJ{
+	background-image: url(lond.jpg);
+	background-size: cover; 
+	background-repeat: no-repeat;
+}
+
+	
+ 
+
+.SEE{
+	border-width: 4px !important;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	
+} 
+
+.TO-CENTER{
+	text-align: center;
+	/*max-height: 550px; /*para nao aparecer amarelo do container pq a imagem do DJ tem 550px de min-height*/
+
+
+}
+
+.NUM4{
+	margin: 0;
+}
+
+.XTRA{
+	/* height: 550px; */
+	min-height: 550px;
+	margin-top: 0;
+	padding-top: 0;
+  
+	
+}
+
+.SWEDEN{
+	text-align: justify;
+	padding: 40px;
+	vertical-align: middle;
+	font-family: 'Montserrat', sans-serif;
+	color: #BFBEBE;
+}
+
+.carousel-indicators li {
+width: 10px !important; 
+  height: 10px !important; 
+  -webkit-border-radius: 100% !important; 
+  display: inline-block;
+  
+  background: #ddd !important;
+}
+
+.carousel-indicators .active{
+	width: 10px !important; 
+  height: 10px !important; 
+  -webkit-border-radius: 100% !important; 
+  display: inline-block;
+	background: #999 !important;
+
+}
+
+ 
+.HEADOF{
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	 letter-spacing: 2px;
+	 line-height: 225%;
+	 color: #4d4d4d;
+}
+
+.HEADLINE1{
+	font-size: 8vw; /*70px*/
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	 letter-spacing: 2px;
+	 color: white;
+	
+}
+
+.HEADLINE2{
+	font-size: 18px;  /*1.3vw;*/
+	font-family: 'Montserrat', sans-serif;
+	 letter-spacing: 2px;
+	 /* line-height: 125%; */
+	 color: white;
+	 /* position: absolute; */
+}
+
+.PARAGRAPH{
+	/* position: relative; */
+    text-align: center;
+	background-image: url(sweden.jpg);
+	background-size: cover; 
+	background-repeat: no-repeat;
+	min-height: 550px;
+	 align-items: center;
+     justify-content: center;
+     display: flex;
+	 flex-flow: row wrap;
+	 flex-direction: column;
+
+
+}
+
+.SOUND{
+	min-height: 550px;
+	background-color: white;
+	text-align: center;
+}
+
+.PHOTO{
+	min-height: 550px;
+	background: url(s5.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+.carousel-indicators {
+  margin-bottom: -50px;
+}
+
+.carousel-inner {
+   margin-bottom: 90px;
+}
+
+
+.NEWSLETTER{
+	min-height: 550px;
+	text-align: center;
+	background: url(news.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+	 align-items: center;
+     justify-content: center;
+     display: flex;
+	 flex-flow: row wrap;
+	 flex-direction: column;
+}	 
+
+.NEWS{
+	font-family: 'Noto Sans', sans-serif;
+	font-weight: bold;
+	font-size: 6vw; /*80px*/
+	color: white;
+	
+}
+
+.WANT{
+	border-width: 4px !important;
+	border-color: white;
+	color: white;
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+
+} 
+
+.WANT2{
+	border-width: 4px !important;
+	border-color: white;
+	color: white;
+	font-size: 1vw; /*16px*/
+	font-family: 'Montserrat', sans-serif;
+	width: 230px;
+} 
+
+.SUBS {
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	color: white;
+	
+}
+
+.FIND{
+	margin-top: 100px;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 6vw; /*+ de 80px*/
+	color: black;
+	line-height: 10vw;
+}
+
+
+
+.FINDUS{
+	
+	text-align: center;
+	  align-items: center;
+     justify-content: center;
+     display: flex;
+	/*  flex-flow: row wrap;
+	 flex-direction: column; */
+}	 
+	
+.PENULTIMO{
+	 min-height: 800px;
+	
+}
+
+.YOU-SPOT{
+	margin-top: 150px;
+	margin-bottom: 50px;
+	text-align: center;
+	 align-items: center;
+     justify-content: center;
+     display: flex;
+}
+
+.SPOT{
+	font-weight: bold;
+}
+
+.SPOTIFY{
+	border-right: 2px solid #ddd;
+
+}
+
+@media screen and (max-width: 987px) {
+  .SPOTIFY {
+   margin-bottom: 100px;
+   border-right: 0px;
+  }
+}
+
+
+.MAKEITBOLD{
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.FONT{
+	font-family: 'Roboto', sans-serif;
+	color: #b3b3b3;
+}
+
+
+.CONTACTS{
+	background-color: #eee;
+	height: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-left: 270px;
+	margin-right: 0px;
+}
+
+.LINKS{
+	padding-left: 0px;
+}
+
+.LINKS li{
+	list-style-type: none;
+	font-family: 'Roboto', sans-serif;
+}	
+
+.LINKS li a{
+	text-decoration: none;
+	font-size: 16px;
+	color: #b3b3b3;
+}
+
+
+.ADDRESS{
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	color: #b3b3b3;
+}
+
+.ICONS a img{
+	margin-right: 8px;
+}
+
+@media screen and (max-width: 1704px) {
+  .CONTACTS{
+			padding: 0px 0px 0px 0px;
+			margin: 0px;
+			text-align: center;
+  }
+}
